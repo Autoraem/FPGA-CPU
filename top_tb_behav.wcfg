@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="63.100001 us"></ZoomEndTime>
+      <Cursor1Time time="0.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wave_markers>
+      <marker time="119351000" label="" />
+      <marker time="136711000" label="" />
+      <marker time="158411000" label="" />
+      <marker time="175771000" label="" />
+      <marker time="201811000" label="" />
+      <marker time="19531000" label="" />
+      <marker time="39061000" label="" />
+      <marker time="58591000" label="" />
+      <marker time="78121000" label="" />
+      <marker time="99821000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/curr" type="other">
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/aluRes" type="array">
+      <obj_property name="ElementShortName">aluRes[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRes[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/irAddr" type="array">
+      <obj_property name="ElementShortName">irAddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">irAddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/op" type="array">
+      <obj_property name="ElementShortName">op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/wr_en1" type="logic">
+      <obj_property name="ElementShortName">wr_en1</obj_property>
+      <obj_property name="ObjectShortName">wr_en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/rID1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rID1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rID1[4:0]</obj_property>
+      <obj_property name="label">WriteReg</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regrD1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">regrD1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regrD1[15:0]</obj_property>
+      <obj_property name="label">ReadReg</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regwD1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">regwD1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regwD1[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Value</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/op" type="array">
+      <obj_property name="ElementShortName">op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv1" type="array">
+      <obj_property name="ElementShortName">regv1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv2" type="array">
+      <obj_property name="ElementShortName">regv2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv2[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv3" type="array">
+      <obj_property name="ElementShortName">regv3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv3[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/temp" type="array">
+      <obj_property name="ElementShortName">temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/B" type="array">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/Opcode" type="array">
+      <obj_property name="ElementShortName">Opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/clock_div_0/Q" type="logic">
+      <obj_property name="ElementShortName">Q</obj_property>
+      <obj_property name="ObjectShortName">Q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/temp" type="array">
+      <obj_property name="ElementShortName">temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[15:0]</obj_property>
+   </wvobject>
+</wave_config>

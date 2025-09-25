@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,471.124621 us"></ZoomEndTime>
+      <Cursor1Time time="4,000.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="62" />
+   <wave_markers>
+      <marker time="99821000" label="" />
+      <marker time="219171000" label="" />
+      <marker time="316821000" label="" />
+      <marker time="1547221000" label="" />
+      <marker time="1642691000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/wr_enR1" type="logic">
+      <obj_property name="ElementShortName">wr_enR1</obj_property>
+      <obj_property name="ObjectShortName">wr_enR1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/wr_enR2" type="logic">
+      <obj_property name="ElementShortName">wr_enR2</obj_property>
+      <obj_property name="ObjectShortName">wr_enR2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regrD1" type="array">
+      <obj_property name="ElementShortName">regrD1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regrD1[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regrD2" type="array">
+      <obj_property name="ElementShortName">regrD2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regrD2[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regwD1" type="array">
+      <obj_property name="ElementShortName">regwD1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regwD1[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regwD2" type="array">
+      <obj_property name="ElementShortName">regwD2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regwD2[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/curr" type="other">
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/fbRST" type="logic">
+      <obj_property name="ElementShortName">fbRST</obj_property>
+      <obj_property name="ObjectShortName">fbRST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/fbAddr1" type="array">
+      <obj_property name="ElementShortName">fbAddr1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">fbAddr1[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/fbDin1" type="array">
+      <obj_property name="ElementShortName">fbDin1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fbDin1[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/fbDout1" type="array">
+      <obj_property name="ElementShortName">fbDout1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fbDout1[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/fbWr_en" type="logic">
+      <obj_property name="ElementShortName">fbWr_en</obj_property>
+      <obj_property name="ObjectShortName">fbWr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/irAddr" type="array">
+      <obj_property name="ElementShortName">irAddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">irAddr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/irWord" type="array">
+      <obj_property name="ElementShortName">irWord[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irWord[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/dAddr" type="array">
+      <obj_property name="ElementShortName">dAddr[14:0]</obj_property>
+      <obj_property name="ObjectShortName">dAddr[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/d_wr_en" type="logic">
+      <obj_property name="ElementShortName">d_wr_en</obj_property>
+      <obj_property name="ObjectShortName">d_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/d_Out" type="array">
+      <obj_property name="ElementShortName">d_Out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_Out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/d_In" type="array">
+      <obj_property name="ElementShortName">d_In[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_In[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/newchar" type="logic">
+      <obj_property name="ElementShortName">newchar</obj_property>
+      <obj_property name="ObjectShortName">newchar</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/send" type="logic">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/charRec" type="array">
+      <obj_property name="ElementShortName">charRec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">charRec[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/charSend" type="array">
+      <obj_property name="ElementShortName">charSend[7:0]</obj_property>
+      <obj_property name="ObjectShortName">charSend[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/aluRes" type="array">
+      <obj_property name="ElementShortName">aluRes[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRes[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/op" type="array">
+      <obj_property name="ElementShortName">op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv1" type="array">
+      <obj_property name="ElementShortName">regv1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv1[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv2" type="array">
+      <obj_property name="ElementShortName">regv2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv2[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/regv3" type="array">
+      <obj_property name="ElementShortName">regv3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regv3[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/curr" type="other">
+      <obj_property name="ElementShortName">curr</obj_property>
+      <obj_property name="ObjectShortName">curr</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/pc" type="array">
+      <obj_property name="ElementShortName">pc[13:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/rID1" type="array">
+      <obj_property name="ElementShortName">rID1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rID1[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/controls_0/U0/rID2" type="array">
+      <obj_property name="ElementShortName">rID2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rID2[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[3]" type="array">
+      <obj_property name="ElementShortName">[3][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[4]" type="array">
+      <obj_property name="ElementShortName">[4][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[5]" type="array">
+      <obj_property name="ElementShortName">[5][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[7]" type="array">
+      <obj_property name="ElementShortName">[7][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers[8]" type="array">
+      <obj_property name="ElementShortName">[8][15:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/regs_0/U0/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/B" type="array">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/Opcode" type="array">
+      <obj_property name="ElementShortName">Opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/my_alu_0/U0/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/addr1" type="array">
+      <obj_property name="ElementShortName">addr1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/addr2" type="array">
+      <obj_property name="ElementShortName">addr2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addr2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/wr_en1" type="logic">
+      <obj_property name="ElementShortName">wr_en1</obj_property>
+      <obj_property name="ObjectShortName">wr_en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/din1" type="array">
+      <obj_property name="ElementShortName">din1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/dout1" type="array">
+      <obj_property name="ElementShortName">dout1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/dout2" type="array">
+      <obj_property name="ElementShortName">dout2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/hcount" type="array">
+      <obj_property name="ElementShortName">hcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hcount[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/vcount" type="array">
+      <obj_property name="ElementShortName">vcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vcount[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/vid" type="logic">
+      <obj_property name="ElementShortName">vid</obj_property>
+      <obj_property name="ObjectShortName">vid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/R" type="array">
+      <obj_property name="ElementShortName">R[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/B" type="array">
+      <obj_property name="ElementShortName">B[4:0]</obj_property>
+      <obj_property name="ObjectShortName">B[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/G" type="array">
+      <obj_property name="ElementShortName">G[5:0]</obj_property>
+      <obj_property name="ObjectShortName">G[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/pixel_pusher_0/U0/pixel" type="array">
+      <obj_property name="ElementShortName">pixel[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dut/uproc_top_level_i/framebuffer_0/U0/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[0:4095][15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[0:4095][15:0]</obj_property>
+   </wvobject>
+</wave_config>
